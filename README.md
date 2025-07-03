@@ -1,3 +1,10 @@
+# 第二題 
+
+請找 10 個股票代號進行以下題目(須包含錯誤代號，如 0001) 公開資訊觀測站 (twse.com.tw)
+- Q1: 整理紅框資訊各頁籤並進行檔案梳理 (py)
+- Q2 : 將梳理結果寫入 RDB (sql)
+- Q3 ：留存藍框友善列印結果.pdf (py)
+
 # MOPS 資料爬取與 PDF 匯出
 
 這是一個用 Selenium + BeautifulSoup + SQLite + Chrome DevTools Protocol 
@@ -15,9 +22,9 @@ mops-scraper/
 
 - **scraper.py**  
   主程式，迴圈讀 `company_ids`，執行：  
-  - 1. 抓三張資料表 (`basic_info`, `revenue`, `financial`)  
-  - 2. 寫入本機 SQLite (`mops.db`)  
-  - 3. 產生 PDF (`mops_<companyId>.pdf`)  
+  - 抓三張資料表 (`basic_info`, `revenue`, `financial`)  
+  - 寫入本機 SQLite (`mops.db`)  
+  - 產生 PDF (`mops_<companyId>.pdf`)  
 
 - **requirements.txt**  
   列出專案相依套件，方便使用 `pip install -r requirements.txt` 一次安裝。  
