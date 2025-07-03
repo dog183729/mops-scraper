@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+mops.db
+
+# Virtualenv
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# PDFs
+mops_*.pdf

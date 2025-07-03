@@ -1,0 +1,4 @@
+selenium>=4.6.0
+webdriver-manager
+beautifulsoup4
+python_version >= "3.8"
