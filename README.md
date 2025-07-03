@@ -54,8 +54,8 @@ mops-scraper/
     ```bash
     python scraper.py
     ```
-    完成後會在資料夾看到：
-    mops.db：SQLite 資料庫
-    mops_<companyId>.pdf：每間公司列印的 PDF
+    完成後會在資料夾看到：  
+    mops.db：SQLite 資料庫  
+    mops_<companyId>.pdf：每間公司列印的 PDF  
 
 
