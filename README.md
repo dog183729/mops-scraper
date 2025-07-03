@@ -6,18 +6,18 @@
 
 ## 專案結構
 
-mops-scraper/
-├── .gitignore
-├── README.md
-├── requirements.txt
-└── scraper.py # 主程式
+mops-scraper/  
+├── .gitignore  
+├── README.md  
+├── requirements.txt  
+└── scraper.py # 主程式  
 
 
 - **scraper.py**  
   主程式，迴圈讀 `company_ids`，執行：  
-  1. 抓三張資料表 (`basic_info`, `revenue`, `financial`)  
-  2. 寫入本機 SQLite (`mops.db`)  
-  3. 產生 PDF (`mops_<companyId>.pdf`)  
+  - 1. 抓三張資料表 (`basic_info`, `revenue`, `financial`)  
+  - 2. 寫入本機 SQLite (`mops.db`)  
+  - 3. 產生 PDF (`mops_<companyId>.pdf`)  
 
 - **requirements.txt**  
   列出專案相依套件，方便使用 `pip install -r requirements.txt` 一次安裝。  
@@ -30,7 +30,7 @@ mops-scraper/
 1. Clone 到本地：
 
    ```bash
-   git clone https://github.com/你的帳號/mops-scraper.git
+   git clone https://github.com/dog183729/mops-scraper.git
    cd mops-scraper
    ```
 2. 建議建立並啟動 virtualenv：
